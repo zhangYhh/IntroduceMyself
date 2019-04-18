@@ -1,0 +1,380 @@
+body, p, dl, dd, ul, ol, li, div, h1, h2, h3, h4, h5, h6, form, input, table, tr, td {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 100px;
+  font-size: 26.67vw; }
+
+body {
+  background: #f9f9fb; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  display: block;
+  border: 0; }
+
+a {
+  display: block;
+  text-decoration: none; }
+
+p {
+  display: block;
+  display: inline-block; }
+
+span {
+  display: block;
+  display: block; }
+
+input {
+  outline: none; }
+
+h3, h4 {
+  font-weight: 100; }
+
+/* header */
+header {
+  width: 100%;
+  height: .44rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden; }
+
+header a {
+  display: block;
+  width: 0.37em;
+  height: 0.37em; }
+  header a > img {
+    display: block;
+    width: 0.37em;
+    height: 0.37em; }
+
+header div {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  font-size: .16rem;
+  font-weight: 100;
+  color: #333; }
+
+header span {
+  cursor: pointer;
+  display: block;
+  width: .25rem;
+  height: 0.25em;
+  margin-right: 13px; }
+  header span > img {
+    display: block;
+    width: 0.25em;
+    height: 0.25em; }
+
+.pic {
+  width: 100%;
+  height: 2.26rem; }
+  .pic > a > img {
+    width: 100%;
+    height: 2.26rem; }
+
+.list {
+  width: 100%;
+  height: 0.4em;
+  background: #f9f9fb; }
+
+.list-a {
+  width: 90%;
+  height: 0.4em;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  position: relative; }
+  .list-a > a {
+    width: 25%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #222;
+    font-size: 12px;
+    text-align: center; }
+  .list-a > span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .42rem;
+    height: 0.4rem;
+    border-radius: 10px; }
+    .list-a > span > img {
+      width: .42rem;
+      height: 0.4rem;
+      border-radius: 10px; }
+
+.big-bg {
+  width: 100%;
+  height: 2.77rem;
+  position: relative; }
+  .big-bg > img {
+    width: 100%;
+    height: 2.77rem; }
+  .big-bg > .a1 {
+    width: 1.85rem;
+    height: 2.77rem;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .big-bg > .a2 {
+    width: 1.89rem;
+    height: 1.29rem;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .big-bg > .a3 {
+    width: 1.88rem;
+    height: 1.46rem;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+
+.big-bg2 {
+  width: 100%;
+  height: 2.77rem;
+  position: relative; }
+  .big-bg2 > img {
+    width: 100%;
+    height: 2.77rem; }
+
+.a4 {
+  width: 1.97rem;
+  height: 1.08rem;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.a5 {
+  width: 2.01rem;
+  height: 1.48rem;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.a5 {
+  width: 2.01rem;
+  height: 1.48rem;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.a6 {
+  width: 1.72rem;
+  height: 2.57rem;
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.small-title {
+  width: 100%;
+  height: 0.4rem; }
+  .small-title > a > img {
+    width: 100%;
+    height: 0.4rem; }
+
+.shangpin-list {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.small-list {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  margin: 0.1rem auto; }
+  .small-list > a {
+    width: 1.15em;
+    height: 1.89rem;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative; }
+    .small-list > a > img {
+      width: 1.15rem;
+      height: 1.15rem;
+      padding-top: 0.05rem; }
+    .small-list > a > .intro {
+      width: 100%;
+      height: 0.2em; }
+      .small-list > a > .intro > p {
+        display: block;
+        text-align: center;
+        line-height: 0.2rem;
+        font-size: 12px;
+        color: #333;
+        padding: 0 0.1rem;
+        margin: 0 auto;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        white-space: normal;
+        word-break: break-all; }
+
+.describe {
+  width: 100%;
+  height: 0.2rem; }
+  .describe > span {
+    width: 80%;
+    padding: 0.02rem;
+    border-radius: 5px;
+    border: 1px solid #f02;
+    color: #f02;
+    font-size: 12px;
+    text-align: center;
+    line-height: 0.1rem;
+    margin: 0 auto; }
+
+.price {
+  width: 0.4rem;
+  height: 0.3rem;
+  font-size: 13px;
+  color: #f02;
+  font-weight: 600;
+  line-height: 0.3rem;
+  text-align: center;
+  margin-left: 0.1rem; }
+
+.gwc {
+  width: 0.24rem;
+  height: 0.24rem;
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.05rem;
+  border-radius: 5px; }
+  .gwc > img {
+    width: 0.24em;
+    height: 0.24rem;
+    border-radius: 5px; }
+
+.small-bg2 {
+  width: 100%;
+  height: 1.66rem;
+  position: relative; }
+  .small-bg2 > img {
+    width: 100%;
+    height: 1.66rem; }
+
+.aa1 {
+  width: 1.23rem;
+  height: 1.67rem;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.aa2 {
+  width: 1.23rem;
+  height: 1.67rem;
+  position: absolute;
+  left: 1.24rem;
+  top: 0; }
+
+.aa3 {
+  width: 1.23rem;
+  height: 1.67rem;
+  position: absolute;
+  left: 2.48rem;
+  top: 0; }
+
+.recommend {
+  width: 100%;
+  overflow: hidden; }
+  .recommend > a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 1.23rem;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 0.1rem; }
+    .recommend > a > img {
+      width: 1.05em;
+      height: 1.05em; }
+    .recommend > a > div {
+      width: 2rem;
+      height: 1.05em; }
+      .recommend > a > div > .div1 {
+        color: #222;
+        font-size: 14px;
+        margin-top: 0.02rem; }
+      .recommend > a > div > .div2 {
+        display: flex;
+        color: #999;
+        font-size: 12px;
+        margin: 0.1rem 0; }
+        .recommend > a > div > .div2 > img {
+          width: 0.24rem;
+          height: 0.14rem; }
+      .recommend > a > div > .div3 {
+        display: flex;
+        color: #999;
+        font-size: 12px;
+        margin: 0.15rem 0 0;
+        line-height: 0.21rem; }
+        .recommend > a > div > .div3 > img {
+          width: 0.21rem;
+          height: 0.21rem; }
+
+.zhong-bg {
+  width: 100%;
+  height: 1rem; }
+  .zhong-bg > a > img {
+    width: 100%;
+    height: 1rem; }
+
+.public-title {
+  width: 100%;
+  height: 0.42em;
+  background-color: #fff;
+  text-align: center;
+  display: flex; }
+  .public-title > p {
+    display: block;
+    height: 0.42em;
+    line-height: 0.42rem;
+    display: block;
+    font-size: 14px;
+    color: #222; }
+  .public-title > .sp1 {
+    display: inline-block;
+    width: .3rem;
+    height: 1px;
+    background-color: #666;
+    margin: .2rem 0.15rem 0.1rem 1.15rem; }
+  .public-title > .sp2 {
+    display: inline-block;
+    width: .3rem;
+    height: 1px;
+    background-color: #666;
+    margin: .2rem 0.15rem 0.1rem 0.15rem; }
+
+.shoppingcar {
+  width: 0.44rem;
+  height: 0.44rem;
+  position: fixed;
+  left: 0.15rem;
+  bottom: 0.5rem; }
+  .shoppingcar > img {
+    width: 0.44rem;
+    height: 0.44rem; }
+
+.top {
+  width: 0.44rem;
+  height: 0.44rem;
+  position: fixed;
+  right: 0.15rem;
+  bottom: 0.5rem; }
+  .top > img {
+    width: 0.44rem;
+    height: 0.44rem; }

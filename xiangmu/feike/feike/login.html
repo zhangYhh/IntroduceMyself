@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+<!-- header -->
+    <div class="logo">
+        <img src="img/logo.jpg"/>
+    </div>
+    <div class="nav">
+        <a class="nav-dl" href="#">注册用户登录</a>
+        <a class="nav-sj" href="#">手机动态验证码登录</a>
+    </div>
+<!-- form -->
+    <form method="POST" class="formm">
+        <div class="imgyz">
+                <span class="sp3"></span>
+                <input class="txt1" type="text" placeholder="手机号码">
+        </div>
+        <div class="imgyz">
+                <span class="sp3 sp4"></span>
+                <input class="txt1" type="text" placeholder="登录密码">
+        </div>
+        <a href="#" class="zc">登录</a>
+        <div class="qh">
+            <a href="regester.html">快速注册</a>
+            <a href="#">忘记密码</a>
+        </div>
+    </form>
+<!-- footer -->
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="r-top"><a href="#"></a></div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(".nav-dl").click(function(){
+        $(".nav-dl").css("backgroundColor","#2264af");
+        $(".nav-sj").css("backgroundColor","#cccccc");
+    });
+    $(".nav-sj").click(function(){
+        $(".nav-dl").css("backgroundColor","#cccccc");
+        $(".nav-sj").css("backgroundColor","#2264af");
+    });
+</script>
+   

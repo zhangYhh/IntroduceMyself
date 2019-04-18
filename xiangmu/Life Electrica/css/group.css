@@ -1,0 +1,272 @@
+body, p, dl, dd, ul, ol, li, div, h1, h2, h3, h4, h5, h6, form, input, table, tr, td {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 100px;
+  font-size: 26.67vw; }
+
+body {
+  background: #f9f9fb; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  display: block;
+  border: 0; }
+
+a {
+  display: block;
+  text-decoration: none; }
+
+p {
+  display: block;
+  display: inline-block; }
+
+span {
+  display: block;
+  display: block; }
+
+input {
+  outline: none; }
+
+h3, h4 {
+  font-weight: 100; }
+
+/* header */
+header {
+  width: 100%;
+  height: .44rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden; }
+
+header a {
+  display: block;
+  width: 0.37em;
+  height: 0.37em; }
+  header a > img {
+    display: block;
+    width: 0.37em;
+    height: 0.37em; }
+
+header div {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  font-size: .16rem;
+  font-weight: 100;
+  color: #333; }
+
+header span {
+  cursor: pointer;
+  display: block;
+  width: .25rem;
+  height: 0.25em;
+  margin-right: 13px; }
+  header span > img {
+    display: block;
+    width: 0.25em;
+    height: 0.25em; }
+
+.big-bg {
+  width: 100%;
+  height: 4.51rem; }
+  .big-bg > a > img {
+    width: 100%;
+    height: 4.51rem; }
+
+.miaosha {
+  width: 100%;
+  height: 0.4em; }
+  .miaosha > a > img {
+    width: 100%;
+    height: 0.4em; }
+
+.sale {
+  width: 100%;
+  height: 1.61rem;
+  display: flex;
+  justify-content: space-around; }
+  .sale > a {
+    width: 1.25rem;
+    height: 1.61rem; }
+    .sale > a > img {
+      width: 1.25rem;
+      height: 1.61rem; }
+
+.list {
+  width: 100%;
+  height: 0.4em;
+  background: #f2f2f2; }
+
+.list-a {
+  width: 90%;
+  height: 0.4em;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  position: relative; }
+  .list-a > a {
+    width: 25%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #222;
+    font-size: 12px;
+    text-align: center; }
+  .list-a > span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .42rem;
+    height: 0.4rem;
+    border-radius: 10px; }
+    .list-a > span > img {
+      width: .42rem;
+      height: 0.4rem;
+      border-radius: 10px; }
+
+.baokuan {
+  width: 100%;
+  overflow: hidden; }
+  .baokuan > a {
+    width: 1.87rem;
+    height: 2.16rem;
+    float: left; }
+    .baokuan > a > img {
+      width: 1.87rem;
+      height: 2.16rem; }
+
+.shangpin-list {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.small-list {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  margin: 0.1rem auto; }
+  .small-list > a {
+    width: 1.15em;
+    height: 1.89rem;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative; }
+    .small-list > a > img {
+      width: 1.15rem;
+      height: 1.15rem;
+      padding-top: 0.05rem; }
+    .small-list > a > .intro {
+      width: 100%;
+      height: 0.2em; }
+      .small-list > a > .intro > p {
+        display: block;
+        text-align: center;
+        line-height: 0.2rem;
+        font-size: 12px;
+        color: #333;
+        padding: 0 0.1rem;
+        margin: 0 auto;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        white-space: normal;
+        word-break: break-all; }
+
+.describe {
+  width: 100%;
+  height: 0.2rem; }
+  .describe > span {
+    width: 80%;
+    padding: 0.02rem;
+    border-radius: 5px;
+    border: 1px solid #f02;
+    color: #f02;
+    font-size: 12px;
+    text-align: center;
+    line-height: 0.1rem;
+    margin: 0 auto; }
+
+.price {
+  width: 0.4rem;
+  height: 0.3rem;
+  font-size: 13px;
+  color: #f02;
+  font-weight: 600;
+  line-height: 0.3rem;
+  text-align: center;
+  margin-left: 0.1rem; }
+
+.gwc {
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.05rem;
+  border-radius: 5px; }
+  .gwc > img {
+    width: 0.2em;
+    height: 0.2rem;
+    border-radius: 5px; }
+
+.zhong-bg {
+  width: 100%;
+  height: 1rem; }
+  .zhong-bg > a > img {
+    width: 100%;
+    height: 1rem; }
+
+.public-title {
+  width: 100%;
+  height: 0.42em;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  margin-bottom: .5rem; }
+  .public-title > p {
+    display: block;
+    height: 0.42em;
+    line-height: 0.42rem;
+    display: block;
+    font-size: 14px;
+    color: #222; }
+  .public-title > .sp1 {
+    display: inline-block;
+    width: .3rem;
+    height: 1px;
+    background-color: #666;
+    margin: .2rem 0.15rem 0.1rem 1.15rem; }
+  .public-title > .sp2 {
+    display: inline-block;
+    width: .3rem;
+    height: 1px;
+    background-color: #666;
+    margin: .2rem 0.15rem 0.1rem 0.15rem; }
+
+footer {
+  width: 100%;
+  height: 0.49em;
+  display: flex;
+  position: fixed;
+  background-color: #fff;
+  bottom: 0; }
+  footer > a {
+    width: 20%;
+    height: 0.49em; }
+    footer > a > img {
+      width: 0.22em;
+      height: 0.22em;
+      margin: 0.04rem auto; }
+    footer > a > span {
+      width: 100%;
+      font-size: 12px;
+      color: #222;
+      text-align: center; }

@@ -1,0 +1,30 @@
+.lt-center{
+    height: 300px;
+}
+.lt-right{
+    position: relative;
+}
+.lt-r-s{
+    height: 300px;
+}
+.footer2{
+    height: 30px;
+    width: 100%;
+    padding-left: 20px;
+    line-height: 30px;
+    background: #00a713;
+    color:#fff;
+    font-size:12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+@media screen and (max-width:1200px){
+    .lt{
+        flex-direction: column;
+        width: 100%!important;
+    }
+    .lt-left{
+        width: 100%;
+    }
+}

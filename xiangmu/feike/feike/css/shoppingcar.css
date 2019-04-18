@@ -1,0 +1,169 @@
+@charset "utf-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 100px;
+    font-size:26.67vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑",Arial;
+    background-color: #ffffff;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    display: inline-block;
+}
+span{
+    display:block;
+}
+input{
+    outline: none;
+}
+h3,h4 {
+    font-weight: 100;
+}
+/*header*/
+
+header{
+    height: .44em;
+    background-color: #efeff0;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+.logo{
+    width: .8em;
+    height: .44em;
+    line-height: .44em;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.logo img{
+    width: .24em;
+    height: .2em;
+    display: block;
+    margin-right: .08em;
+}
+.logo p{
+    color: #014898;
+    font-size: .14em;
+}
+.fl{
+    color: #014898;
+    font-size: .16em;
+    margin-right: 2em;
+}
+.gwc {
+    width: .3em;
+    height: .34em;
+    background: url("../img/gwc.png") no-repeat center;
+    background-size: .26em;
+    margin-right: .1em;
+}
+.content{
+    width: 100%;
+    -webkit-flex:1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*购物车*/
+.gwcc{
+    height: .41em;
+    border-bottom: 1px solid #dfdfdf;
+}
+.kong{
+    width: .7em;
+    height: .3em;
+    background: url("../img/delAll.png") no-repeat center;
+    background-size: .72em;
+    float:right;
+    margin-right: .1em;
+    margin-top: .1em;
+}
+/*footer*/
+.footer{
+    height: .5em;
+    background-color: #efeff1;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+.fot-l{
+    height: .44em;
+    line-height: .44em;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    padding-left:.14em;
+}
+.fot-l p{
+    color: #fe7d44;
+    font-size: .2em;
+}
+.fot-l span{
+    color: #fe7d44;
+    font-size: .2em;
+}
+.fot-r{
+    width: .94em;
+    height: .4em;
+    background-color: #fe7d44;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.fot-r p,span{
+    color: #fff;
+    font-size: 14px;
+}
+.left{
+    background: url("../img/kf.png") center;
+    background-size: cover;
+    width: .35em;
+    height: .35em;
+    position:fixed;
+    left: 10px;
+    bottom: .85rem;
+    z-index: 2;
+}
+.right{
+    background: url("../img/tglx.jpg") center;
+    background-size: cover;
+    width: .35em;
+    height: .35em;
+    position:fixed;
+    right: 10px;
+    bottom: .85rem;
+    z-index: 2;
+}
+.r-top{
+    background: url("../img/top.png") center;
+    background-size: cover;
+    width: .35em;
+    height: .35em;
+    position:fixed;
+    right: 10px;
+    bottom: .45rem;
+    z-index: 2;
+}
+.r-top a{
+    width: .35em;
+    height: .35em;
+    display: block;
+}

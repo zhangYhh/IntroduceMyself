@@ -1,0 +1,110 @@
+body, p, dl, dd, ul, ol, li, div, h1, h2, h3, h4, h5, h6, form, input, table, tr, td {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 100px;
+  font-size: 26.67vw; }
+
+body {
+  background: #f9f9fb; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  display: block;
+  border: 0; }
+
+a {
+  display: block;
+  text-decoration: none; }
+
+p {
+  display: block;
+  display: inline-block; }
+
+span {
+  display: block;
+  display: block; }
+
+input {
+  outline: none; }
+
+h3, h4 {
+  font-weight: 100; }
+
+.shot {
+  width: 100%;
+  height: 4.24rem;
+  position: relative; }
+  .shot > img {
+    width: 100%;
+    height: 4.24em; }
+
+.pics {
+  width: 90%;
+  margin: 0 auto;
+  height: 1.4rem;
+  position: absolute;
+  top: 2.7em;
+  left: 0.18rem; }
+  .pics > a:nth-child(1) {
+    float: left; }
+    .pics > a:nth-child(1) > img {
+      width: 1.7em;
+      height: 1.4em; }
+  .pics > a:nth-child(2) {
+    float: right; }
+    .pics > a:nth-child(2) > img {
+      width: 1.65em;
+      height: 0.65em; }
+  .pics > a:nth-child(3) {
+    float: right;
+    margin-top: 0.1rem; }
+    .pics > a:nth-child(3) > img {
+      width: 1.65em;
+      height: 0.65em; }
+
+.header {
+  width: 100%;
+  height: 0.44em;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+  .header > a:first-child > img {
+    width: 0.36em;
+    height: 0.25em; }
+  .header > a:nth-child(2) > img {
+    width: 0.66em;
+    height: 0.16em; }
+
+.search {
+  width: 5.0rem;
+  height: 0.52rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .search > a {
+    display: block;
+    width: 2.35em;
+    height: 0.32em;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center; }
+    .search > a > span:first-child {
+      width: 0.2rem;
+      height: 0.2em;
+      display: inline-block;
+      background: url(../img/search-icon.png) no-repeat;
+      background-size: 100% 100%;
+      margin: 0 15px 0 10px; }
+    .search > a > span:last-child {
+      height: 0.2rem;
+      font-size: .16rem;
+      color: #cacaca; }

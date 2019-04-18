@@ -1,0 +1,136 @@
+.add{
+    width: 45px;
+    height: 45px;
+}
+
+.lt-left{
+    background-color: #9d1a00;
+}
+.lt-top{
+    background-color: #af1d00;
+}
+.atwo{
+    background-color: #941800;
+}
+.lt-center{
+    width: 90%;
+    margin:0 auto;
+}
+.lt-center ul{
+    margin:20px 0;
+}
+.lt-center li{
+    width: 100%;
+    margin:0 auto;
+    cursor: pointer;
+}
+.pp:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.lt-center li p{
+    width: 90%;
+    height: 35px;
+    border:1px solid #7d1400;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    color:#fff!important;
+    display: block;
+    line-height: 35px;
+    background-color: #8d1700;
+    margin-top:10px;
+}
+.ltem1{
+    width: 90%;
+    margin:0 auto;
+    font-size: 13px;
+    color: #fff;
+    border:1px solid #7d1400;
+    border-top:none;
+    display: none;
+    padding:10px 5px;
+}
+.ltem2{
+    border:1px solid #8b0038;
+    border-top:none;
+}
+.ltem3{
+    border:1px solid #007777;
+    border-top:none;
+}
+.ltem4{
+    border:1px solid #004c8b;
+    border-top:none;
+}
+.lt-right{
+    background-color: #ad0046;
+}
+.lt-top2{
+    background-color: #c1004f;
+}
+.atwo2{
+    background-color: #a30042;
+}
+.lt-r-s{
+    width: 90%;
+    margin:0 auto;
+}
+.lt-r-s ul{
+    margin:20px 0;
+}
+.lt-r-s li{
+    width: 100%;
+    margin:0 auto;
+    cursor: pointer;
+}
+.lt-r-s li:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.lt-r-s li p{
+    width: 90%;
+    height: 35px;
+    border:1px solid #8b0038;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    color:#fff!important;
+    display: block;
+    line-height: 35px;
+    background-color: #9b003e;
+    margin-top:10px;
+}
+.lt-left2{
+    background-color: #009494;
+}
+.lt-top3{
+    background-color: #01a5a5;
+}
+.atwo3{
+    background-color: #008b8b;
+}
+.lt-center2 li p{
+    border:1px solid #007777;
+    background-color: #008484;
+}
+
+.lt-right2{
+    background-color: #005fad;
+    margin-left: 20px;
+}
+.lt-top4{
+    background-color: #006ac1;
+}
+.atwo4{
+    background-color: #0059a3;
+}
+.lt-r-s2 li p{
+    border:1px solid #004c8b;
+    background-color: #00559b;
+}
+@media screen and (max-width:768px){
+    .lt-right2{
+        margin-left: 0!important;
+    }
+}

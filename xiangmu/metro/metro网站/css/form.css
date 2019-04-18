@@ -1,0 +1,186 @@
+@charset "utf-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html{
+    
+    height: 100%;
+}
+body{
+	font-family: "微软雅黑",Arial;
+    background: hsl(0, 0%, 100%);
+   
+    height: 100%; 
+}
+.big-bd{
+    height: 100%;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+input{
+    outline: none;
+}
+p{
+    display: inline-block;
+}
+img{
+    display: inline-block;
+}
+/* 表单 */
+.big-form{
+    width: 100%; 
+    background: #c1004f;
+    /* height: 1000px; */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.title{
+    padding:2px 0 0 15px;
+    position: relative;
+}
+.form-i{
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    border: 1px solid #fff;
+    background: #c1004f;
+    margin-right: 5px;
+}
+.form-s{
+    font-size: 24px;
+    color:#fff;
+    margin:5px 0;
+    display: inline-block;
+}
+.form-bq{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background: url(../img/paint_bucket.png) no-repeat center;
+    background-color: #9b003e;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.section-top{
+    overflow: hidden;
+    padding: 12px 15px 18px 15px;
+    background: #9b003e;
+    margin-bottom:5px;
+}
+.big-section{
+    overflow: hidden;
+}
+.big-b-s{
+    overflow: hidden;
+    background-color: #9b003e;
+}
+.form-ul{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.form-ul li{
+    color:#fff;
+    font-size:17px;
+    flex: 1;
+    width: 25%;
+    text-align: center;
+    margin-left:20px;
+    background-color: #830034;
+    padding:3px 0;
+}
+.form-ul li:first-child{
+    margin-left: 0;
+}
+.username{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top:20px;
+}   
+.form-label-r{
+    width: 83.3%;
+}
+.form-label-r p{
+    display: block;
+    color: rgba(0,0,0,0.8);
+    margin-top:5px;
+    font-size: 12px;
+}
+.form-label-r input{
+    padding: 6px;
+    height: 16px;
+    width: 100%;
+}
+.form-label{
+    width: 16.7%;
+    text-align: right;
+    margin-right:20px;
+    margin-top:10px;
+    color: #fff;
+    font-size: 14px;
+}
+.form-foot{
+    width: 97%;
+    background-color: #8b0037;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    height: 66px;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.form-foot-l{
+    display: inline-block;
+    width: 132px;
+    height: 42px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #45001b;
+    margin-left:15px;
+}
+.form-foot i{
+    display: inline-block;
+    width:8px;
+    height: 10px;
+    border:1px solid #fff;
+}
+.form-foot-r{
+    display: inline-block;
+    width: 100px;
+    height: 42px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #45001b;
+    margin-right:15px;
+}
+.form-li-1,.form-li-2,.form-li-3,.form-li-4{
+    cursor: pointer;
+}
+.form-f2,.form-f3,.form-f4{
+    display: none;
+}
+.form-f4{
+    margin:20px 40px;
+    color: #fff;
+    font-size:30px;
+}
+.form-f4 p{
+    display: block;
+    font-size: 18px;
+}

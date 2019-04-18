@@ -1,0 +1,102 @@
+.right-sec{
+    width: 100%;
+    overflow: hidden;
+}
+.calen{
+    width: 65%;
+    height: 500px;
+    background-color: rgb(139, 105, 105);
+    float: left;
+    margin-top:20px;
+}
+.calen-r{
+    width: 34%;
+    overflow: hidden;
+    float: right;
+}
+.calen-r1{
+    width: 100%;
+    background-color: #c14625;
+    margin-top:20px;
+}
+.lt-top{
+    display: flex;
+    justify-content: space-between;
+}
+.add{
+    width: 45px!important;
+}
+.calen-r1 p{
+    font-size: 14px;
+    color: #fff;
+    margin:10px 10px;
+}
+.calen-r2{
+    background-color: #009494!important;
+    margin-bottom: 20px;
+}
+.lt-top2{
+    background-color: #01a5a5!important;
+}
+.calen-r2-b ul{
+    width: 90%;
+    margin:0 auto;
+    margin-top:20px;
+}
+.atwo-2{
+    background-color: #008b8b!important;
+}
+.calen-b-li{
+    width: 80%;
+    margin-bottom:10px!important;
+    margin:0 auto;
+    height: 30px;
+    line-height: 30px;
+    background-color: #007d7d;
+    color:#fff;
+    font-size:14px;
+    padding-left:10px;
+}
+.lab{
+    width: 80%;
+    height: 30px;
+    margin:0 auto;
+    display: flex;
+    align-content: center;
+    padding-bottom:20px!important;
+}
+.lab p{
+    color: #fff;
+    font-size:13px;
+}
+.check-in{
+    width: 25px;
+    height: 25px;
+    margin-top:5px;
+}
+.calen-r3{
+    background-color: #5f5f5f!important;
+}
+.atwo-3{
+    background-color:#595959!important;
+}
+.lt-top3{
+    background-color: #6a6a6a!important;
+}
+.li-c{
+    background: #505050;
+}
+.calen-r3 p{
+    margin:10px;
+}
+@media screen and (max-width:980px){
+    .right-sec{
+        flex-direction: column;
+    }
+    .calen{
+        width: 100%;
+    }
+    .calen-r{
+        width: 100%;
+    }
+}

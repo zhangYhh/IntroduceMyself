@@ -1,0 +1,574 @@
+@charset "UTF-8";
+body, p, dl, dd, ul, ol, li, div, h1, h2, h3, h4, h5, h6, form, input, table, tr, td {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 100px;
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; 
+}
+
+body {
+  font-family: "微软雅黑",Arial;
+  background-color: #555;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; 
+}
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+p {
+  display: inline-block; }
+
+span {
+  display: block; }
+
+input {
+  outline: none; }
+
+h3, h4 {
+  font-weight: 100; 
+}
+.swiper-container{
+  width: 100%;
+  height: 100%;
+}
+/* 1页面 */
+ header{
+    width: 100%;
+    height: .6rem;
+    background-color: #555;
+    line-height: .6em;
+    text-align: center;
+ }  
+ header p{
+   color: #fff;
+   font-size: 18px;
+   display: block;
+ } 
+ section{
+   width: 100%;
+   height: 100%;
+   background: url(../img/bg.png) no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ .music{
+   width: 0.24em;
+   height: 0.24em;
+   background: url(../img/musicIcon2.png) no-repeat;
+   background-size: cover;
+   position: fixed;
+   top: 0.9em;
+   right: 0.2em;
+   z-index: 2;
+   animation: box-ani 1s infinite linear;
+ } 
+ @-webkit-keyframes box-ani{
+    from{
+        transform: rotateZ(0deg); 
+    }
+    to{
+      transform: rotateZ(360deg); 
+    }
+}
+ .team{
+    width: 1.9em;
+    height: 0.54em;
+    background: url(../img/team.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: .4em;
+    left: 0.8em;
+ }
+ .lin{
+    width: 2.19em;
+    height: 2.48em;
+    background: url(../img/lin.gif) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:1.6em;
+    left: .7em;
+    z-index: 1;
+ }
+ .nba{
+    width: 2.1em;
+    height: 1.32em;
+    background: url(../img/nba.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:2.7em;
+    left: .7em;
+    z-index: 1;
+ }
+ .fot{
+    width: 3.19em;
+    height: 0.69em;
+    background: url(../img/foot.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:3.8em;
+    left: .4em;
+ }
+ .next{
+    width: 0.9em!important;
+    height: 0.42em!important;
+    background: url(../img/next.png) no-repeat!important;
+    background-size: cover!important;
+    position: absolute!important;
+    left: 1.5em!important;
+    top: 5em!important;
+ }
+ .next-n{
+    width: .9rem;
+    height: .42rem;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: .42rem;
+ }
+ .san{
+   width: 0.34em;
+   height: 0.34em;
+   background: url(../img/up.png) no-repeat;
+   background-size: cover;
+   position: absolute;
+   top: 5.4em;
+   left: 1.7em;
+   animation: sanj 1.5s infinite linear;
+ }
+ @-webkit-keyframes sanj{
+  from{
+      opacity: 0;
+      transform: translateY(8px);
+  }
+  to{
+    opacity: 1;
+  }
+}
+/* 2页面 */
+.tencent{
+  width: 2.64em;
+  height: 0.47em;
+  position: absolute;
+  top: .4em;
+  left: 0.6em;
+  background: url(../img/star.png) no-repeat;
+  background-size: cover;
+}
+.quan{
+  width: 1.7em;
+  height: 1.7em;
+  position: absolute;
+  top: 1.8em;
+  left: 1.05em;
+  background: url(../img/quan.png) no-repeat;
+  background-size: cover;
+}
+.jordan{
+  width: 1.67em;
+  height: 2.5em;
+  position: absolute;
+  top: 1.5em;
+  left: 1.3em;
+  background: url(../img/jordan.gif) no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.mj{
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: .18em;
+    font-family: arial;
+    position: absolute;
+    bottom: 10.8em;
+    left: 0;
+    padding-left:1.6em; 
+}
+.qiaodan{
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(202, 27, 0);
+    font-size: .15em;
+    font-family: arial;
+    position: absolute;
+    bottom: 11.6em;
+    left: 0;
+    padding-left: 1.8em;
+}
+.timer{
+  width: 2.67em;
+  height: 0.5em;
+  position: absolute;
+  bottom: 1.45em;
+  left:-0.65em;
+}
+.time{
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: .12em;
+    font-family: arial;
+    width: 100%;
+    height: 100%;
+    white-space: pre-wrap;
+}
+.back{
+  width: 1.34em!important;
+  height: 0.37em!important;
+  background: url(../img/back.png) no-repeat!important;
+  background-size: cover!important;
+  display: flex!important;
+  align-items: center!important;
+  position: absolute!important;
+  top: 5em!important;
+  left: 0.5em!important;
+}
+.bb{
+  color: #fff;
+  font-size: 14px;
+  margin-left: 4.8em;
+}
+.nn{
+  color: #fff;
+  font-size: 14px;
+  margin-left: 1.9em;
+}
+.nexx{
+  width: 1.34em!important;
+  height: 0.37em!important;
+  background: url(../img/nexx.png) no-repeat!important;
+  background-size: cover!important;
+  display: flex!important;
+  align-items: center!important;
+  position: absolute!important;
+  top: 5em!important;
+  left: 1.9em!important;
+}
+/* 3页面 */
+.hsj{
+  width: 1.92em;
+  height: 2.25em;
+  background: url(../img/hsj.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1.7em;
+  left: 1.2em;
+  z-index: 1;
+}
+.lin7{
+  width: 1.65em;
+  height: 2.27em;
+  background: url(../img/lin7.gif) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 1.8em;
+  left: 1.65em;
+  z-index: 1;
+}
+.quanquan{
+    width: 0.41em;
+    height: 0.41em;
+    background: url(../img/quanquan.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1.55em;
+    left: 2.15em;
+    z-index: 2;
+}
+.quanquan2{
+  position: absolute;
+  top: 3.7em;
+  left: 1.05em;
+}
+.quanquan3{
+  position: absolute;
+  top: 3.25em;
+  left: 2.85em;
+}
+.lsh{
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: .18em;
+    font-family: arial;
+    position: absolute;
+    bottom: 23em;
+    left: 0;
+    padding-left:1.6em; 
+}
+.JEREMY{
+  line-height: 1.5;
+  text-align: left;
+  color: rgb(202, 27, 0);
+  font-size: .15em;
+  font-family: arial;
+  position: absolute;
+  bottom: 26.2em;
+  left: 0;
+  padding-left: 1.8em;
+}
+.timer1{
+width: 2.67em;
+height: 0.5em;
+position: absolute;
+bottom: 3.45em;
+left:0;
+padding-left: 0.28em;
+  z-index: 4;
+}
+.time1{
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-size: .12em;
+  font-family: arial;
+}
+.hsj1{
+  width: 2.4em;
+  position: absolute;
+  top: 1.7em;
+  left: .7em;
+}
+/* 4页面 */
+.glf{
+  width: 1.65em;
+  height: 2.27em;
+  background: url(../img/glf.gif) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1.55em;
+  left: 1.28em;
+  z-index: 2;
+}
+/* 5页面 */
+.glf-r{
+  width: 1.09em;
+  height: 1.72em;
+  background: url(../img/glf-r.gif) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:2.2em;
+  left: 2.2em;
+  z-index: 5;
+}
+.glf-l{
+  width: .94em;
+  height: 2.15em;
+  background: url(../img/glf-l.gif) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top:1.7em;
+  left: .8em;
+  z-index: 5;
+  display: none;
+}
+.too{
+  position: absolute;
+  top: 4.2em;
+  left: 0;
+  padding-left: 1.5em;
+}
+.touch{
+  width: 1.52em;
+  height: 0.39em;
+  background: url(../img/touch.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+.back1,.nexx1,.san1{
+  display: none;
+}
+.bb,.nn{
+  margin-top: .6em;
+}
+/* 6页面 */
+.wenh1{
+  width: .59em;
+  height: 1.09em;
+  background: url(../img/wenhao.gif) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top:2em;
+  left: .6em;
+  z-index: 5;
+}
+.wenh2{
+  width: 1.08em;
+  height: 2em;
+  background: url(../img/wenhao.gif) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top:  1.5em;
+  left: 1.45em;
+  z-index: 5;
+}
+.wenh3{
+  width: .59em;
+  height: 1.09em;
+  background: url(../img/wenhao.gif) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top:2em;
+  left: 2.8em;
+  z-index: 5;
+}
+/* 7页面 */
+.baozhi{
+  width: 2.07em;
+  height: 1.36em;
+  background: url(../img/baozhi.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top:  2.6em;
+  left: 1.35em;
+  z-index: 5;
+}
+.xqq{
+  width: 0.41em;
+  height: 0.41em;
+  background: url(../img/quanquan.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:  1.89em;
+  left: 2.1em;
+  z-index: 6;
+}
+.gekou{
+  width: 1.27em;
+  height: 2.3em;
+  background: url(../img/gekou.gif) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:  2em;
+  left: 1.75em;
+  z-index: 7;
+}
+.xqq2{
+  position: absolute;
+  top:  2.8em;
+  left: 1.1em;
+}
+.xqq3{
+  position: absolute;
+  top:  3.1em;
+  left: 2.75em;
+}
+.starplay{
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: .34em;
+    font-family: arial;
+    position: absolute;
+    top:3em;
+    left: 0;
+    padding-left: .5em;  
+}
+.nowplay{
+  line-height: 1.5;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: arial;
+    position: absolute;
+    top:11em;
+    left: 0;
+    padding-left: 1.5em;  
+}
+/* 8页面 */
+.three{
+  width: 2.3em;
+  height: 3.13em;
+  background: url(../img/three.gif) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:.8em;
+  left: .75em;
+}
+.china{
+  width: 1.87em;
+  height: 1.17em;
+  background: url(../img/nba.png) no-repeat;
+  background-size: cover;
+  z-index: 2;
+  position: absolute;
+  top:2.6em;
+  left: .95em;
+}
+.joy{
+  width: 1.32em;
+  height: 0.37em;
+  background: url(../img/joy.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:4.3em;
+  left: 1.2em;
+  z-index: 3;
+}
+.joy-china{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  line-height: .37rem;
+  text-align: center;  
+}
+.big-black{
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 8;
+  display: none;
+  opacity: 0.6;
+}
+.do{
+  color: #fff;
+  font-size:12px;
+  position: absolute;
+  left: 18em;
+  top:3.3em;
+}
+.fx{
+  width: 0.4em;
+  height: 0.25em;
+  background: url(../img/fx.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 3em;
+  top:.3em;
+}
+.nb{
+  width: 2.47em;
+  height: .3em;
+  background: url(../img/nb.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: .2em;
+  top:2.5em;
+}
+.support{
+  width: 1.83em;
+  height: .3em;
+  background: url(../img/support.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: .2em;
+  top:3em;
+}

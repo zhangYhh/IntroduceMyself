@@ -1,0 +1,217 @@
+@charset "utf-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 100px;
+    font-size:26.67vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑",Arial;
+    background-color: #ffffff;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    display: inline-block;
+}
+span{
+    display:block;
+}
+input{
+    outline: none;
+}
+h3,h4 {
+    font-weight: 100;
+}
+/*header*/
+
+header{
+    height: .44em;
+    background-color: #efeff0;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+.logo{
+    width: .8em;
+    height: .44em;
+    line-height: .44em;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.logo img{
+    width: .24em;
+    height: .2em;
+    display: block;
+    margin-right: .08em;
+}
+.logo p{
+    color: #014898;
+    font-size: .14em;
+}
+.fl{
+    color: #014898;
+    font-size: .16em;
+    margin-right: 2em;
+}
+.gwc {
+    width: .3em;
+    height: .34em;
+    background: url("../img/gwc.png") no-repeat center;
+    background-size: .26em;
+    margin-right: .1em;
+}
+/*login*/
+.login{
+    height: 1.4em;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.s-login{
+    height: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+.s-login h2{
+    font-size: .24em;
+    color: #004898;
+    margin-top: .6em;
+    font-weight: 100;
+}
+.s-login p{
+    font-size: .13em;
+    color: #9fa0a0;
+    display: block;
+    margin-top: .1em;
+}
+/*xiangqing*/
+.xq{
+    margin-bottom: .2em;
+}
+.xq li{
+    height: .52em;
+    background-color: #efeff0;
+}
+.xq a{
+    height: .52em;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+.xq span{
+    width: .3em;
+    height: .35em;
+    background: url("../img/icon3.png");
+    background-size: .3em;
+    margin-left: .1em;
+    margin-top: 0.1em;
+}
+.xq p{
+    width: 6em;
+    height: 17px;
+    font-size: 14px;
+    color: #000;
+    display: block;
+    margin-right: 15em;
+}
+.xq i{
+    display: block;
+    width: .08em;
+    height: .14em;
+    background: url("../img/arrow.png") no-repeat center;
+    background-size: .08em;
+    margin-right: 10px;
+}
+.xq li:nth-of-type(2) span{
+    background-position: 0 -54px;
+}
+.xq li:nth-of-type(3) span{
+    background-position: 0 -54px;
+}
+.xq li:nth-of-type(4) span{
+    background-position: 0 -108px;
+}
+.xq li:nth-of-type(5) span{
+     background-position: 0 -160px;
+ }
+.qq li:nth-of-type(1) span{
+    background-position: 0 -54px;
+}
+.qq li:nth-of-type(2) span{
+    background-position: 0 -160px;
+}
+.qq li:nth-of-type(3) span{
+    background-position: 0 -347px;
+}
+.qq li:nth-of-type(4) span{
+    background-position: 0 -397px;
+}
+.qq li:nth-of-type(5) span{
+    background-position: 0 -453px;
+}
+.ww li:nth-of-type(1) span{
+    background-position: 0 -529px;
+}
+.ww li:nth-of-type(2) span{
+    background-position: 0 -584px;
+}
+.ww li:nth-of-type(3) span{
+    background-position: 0 -636px;
+}
+.ww li:nth-of-type(4) span{
+    background-position: 0 -690px;
+}
+.ww li:nth-of-type(5) span{
+    background-position: 0 -738px;
+}
+.left{
+    background: url("../img/kf.png") center;
+    background-size: cover;
+    width: .35em;
+    height: .35em;
+    position:fixed;
+    left: 10px;
+    bottom: .85rem;
+    z-index: 2;
+}
+.right{
+    background: url("../img/tglx.jpg") center;
+    background-size: cover;
+    width: .35em;
+    height: .35em;
+    position:fixed;
+    right: 10px;
+    bottom: .85rem;
+    z-index: 2;
+}
+.r-top{
+    background: url("../img/top.png") center;
+    background-size: cover;
+    width: .35em;
+    height: .35em;
+    position:fixed;
+    right: 10px;
+    bottom: .45rem;
+    z-index: 2;
+}
+.r-top a{
+    width: .35em;
+    height: .35em;
+    display: block;
+}
